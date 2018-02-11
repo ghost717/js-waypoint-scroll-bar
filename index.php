@@ -16,7 +16,7 @@
             
             <div class="list">
                 <ul>
-                    <?php for($i=0; $i<10; $i++): ?>
+                    <?php for($i=0; $i<20; $i++): ?>
 
                         <li data-id="page<?php echo $i; ?>">
                             <a href="#page<?php echo $i; ?>">section <?php echo $i; ?></a>
@@ -25,11 +25,11 @@
                     <?php endfor; ?>
                 </ul>
             </div>
-            
+
         </div>
     </section>
 
-    <?php for($i=0; $i<10; $i++): ?>
+    <?php for($i=0; $i<20; $i++): ?>
 
         <section id="page<?php echo $i; ?>">
             <div class="wrap content">

@@ -198,13 +198,34 @@ section:nth-child(2n){
     background: rgba(255, 255, 255, 0.9);
     padding: 10px 0;
 }
+#nav .list{
+    position: relative;
+    overflow: hidden;
+}
+#nav .list:before{
+    content: url('../img/arrowRight.png');
+    position: absolute;
+}
+#nav .list:after{
+    content: url('../img/arrowRight.png');
+    position: absolute;
+}
 #nav ul{
     margin: 0;
     padding: 0;
+    overflow: hidden;
+    width: 2000%;
+    height: 20px;
 }
 #nav li{
     display: inline-block;
     padding-right: 20px;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+#nav li a{
+    line-height: 20px;
 }
 #nav li.active a{
     color: red;
