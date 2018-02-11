@@ -13,17 +13,19 @@
 <body>
     <section id="nav">
         <div class="wrap">
+            
+            <div class="list">
+                <ul>
+                    <?php for($i=0; $i<10; $i++): ?>
 
-            <ul class="list">
-                <?php for($i=0; $i<10; $i++): ?>
+                        <li data-id="page<?php echo $i; ?>">
+                            <a href="#page<?php echo $i; ?>">section <?php echo $i; ?></a>
+                        </li>
 
-                    <li data-id="page<?php echo $i; ?>">
-                        <a href="#page<?php echo $i; ?>">section <?php echo $i; ?></a>
-                    </li>
-
-                <?php endfor; ?>
-            </ul>
-
+                    <?php endfor; ?>
+                </ul>
+            </div>
+            
         </div>
     </section>
 

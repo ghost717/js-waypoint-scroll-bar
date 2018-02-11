@@ -206,3 +206,6 @@ section:nth-child(2n){
     display: inline-block;
     padding-right: 20px;
 }
+#nav li.active a{
+    color: red;
+}
